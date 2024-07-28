@@ -1,12 +1,13 @@
 Proyecto del Sprint 3
+
 Preparar un informe con visualizaciones que brinde informacion sobre los habitos de compra de los clientes de una plataforma de entrega de comestibles.
 
 Diccionario de datos
 Hay cinco tablas en el conjunto de datos, y tendrás que usarlas todas para hacer el preprocesamiento de datos y el análisis exploratorio de datos. A continuación se muestra un diccionario de datos que enumera las columnas de cada tabla y describe los datos que contienen.
 
-instacart_orders.csv: cada fila corresponde a un pedido en la aplicación Instacart.
-'order_id': número de ID que identifica de manera única cada pedido.
-'user_id': número de ID que identifica de manera única la cuenta de cada cliente.
+- instacart_orders.csv: cada fila corresponde a un pedido en la aplicación Instacart.
+  - 'order_id': número de ID que identifica de manera única cada pedido.
+  - 'user_id': número de ID que identifica de manera única la cuenta de cada cliente.
 'order_number': el número de veces que este cliente ha hecho un pedido.
 'order_dow': día de la semana en que se hizo un pedido (0 si es domingo).
 'order_hour_of_day': hora del día en que se hizo el pedido.
