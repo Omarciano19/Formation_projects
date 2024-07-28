@@ -25,5 +25,5 @@ CSV HEADER;
       AND dropoff_location_id = 63 
       AND EXTRACT(DOW FROM start_ts) = 6
     ORDER BY start_ts
-) TO './project_sql_result_01.csv' 
+) TO './project_sql_result_07.csv' 
 WITH CSV HEADER;
